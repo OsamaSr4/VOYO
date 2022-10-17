@@ -67,9 +67,10 @@ extension RegisterViewController {
     func observerViewModel () {
         viewModel.updateProfileResponse.observe { respones in
             if respones?.error == false {
-                
             }else {
-                
+                DispatchQueue.main.async {
+                    Toast.show(message: "\(respones?.message ?? "Something went Wrong")", controller: self)
+                }
             }
         }
         viewModel.UserModelResponesLiveData.observe { result in
@@ -84,6 +85,9 @@ extension RegisterViewController {
                                             "last_name": lastName]
                 ]
                 
+                UserDefault.setValue(value: auth_Token, key: userDefaultIdentifier.Accesstoken)
+                let vc = ViewController.instantiate(fromStoryBoards: .Main)
+                self.navigationController?.pushViewController(vc, animated: true)
                 self.viewModel.requestForUpdateProfile(params: params2)
             }else {
                 DispatchQueue.main.async {

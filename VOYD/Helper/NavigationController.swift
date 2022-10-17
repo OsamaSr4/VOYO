@@ -12,7 +12,7 @@ final class NavigationController: UINavigationController {
     func setupUI() {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithDefaultBackground()
-        appearance.backgroundColor = .systemBackground
+        appearance.backgroundColor = UIColor().appColor
         appearance.shadowColor = .clear
         
         navigationBar.standardAppearance = appearance

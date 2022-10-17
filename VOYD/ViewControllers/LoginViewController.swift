@@ -63,7 +63,8 @@ extension LoginViewController {
             if result?.error == false {
                 let auth_Token = result?.token
                 UserDefault.setValue(value: auth_Token, key: userDefaultIdentifier.Accesstoken)
-                let vc =view
+                let vc = ViewController.instantiate(fromStoryBoards: .Main)
+                self.navigationController?.pushViewController(vc, animated: true)
             }else {
                 DispatchQueue.main.async {
                     Toast.show(message: "\(result?.message ?? "Something went Wrong")", controller: self)
