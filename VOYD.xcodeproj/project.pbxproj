@@ -29,6 +29,7 @@
 		524C3BFA28FDD10400DB00D6 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BF928FDD10400DB00D6 /* NavigationController.swift */; };
 		524C3BFE28FDE4A800DB00D6 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BFD28FDE4A800DB00D6 /* ForgotPasswordViewController.swift */; };
 		524C3C0028FDE51900DB00D6 /* ForgotPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BFF28FDE51900DB00D6 /* ForgotPasswordModel.swift */; };
+		524C3C0228FE008600DB00D6 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3C0128FE008600DB00D6 /* OTPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		524C3BF928FDD10400DB00D6 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		524C3BFD28FDE4A800DB00D6 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		524C3BFF28FDE51900DB00D6 /* ForgotPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordModel.swift; sourceTree = "<group>"; };
+		524C3C0128FE008600DB00D6 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		99BD38D4806EB9592718AD42 /* Pods-VOYD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOYD.release.xcconfig"; path = "Target Support Files/Pods-VOYD/Pods-VOYD.release.xcconfig"; sourceTree = "<group>"; };
 		C6216EDF60E098FD6F15CECB /* Pods-VOYD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOYD.debug.xcconfig"; path = "Target Support Files/Pods-VOYD/Pods-VOYD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +156,7 @@
 				524C3BDC28FDAAD100DB00D6 /* LoginViewController.swift */,
 				524C3BF728FDCE7000DB00D6 /* RegisterViewController.swift */,
 				524C3BFD28FDE4A800DB00D6 /* ForgotPasswordViewController.swift */,
+				524C3C0128FE008600DB00D6 /* OTPViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				524C3BFA28FDD10400DB00D6 /* NavigationController.swift in Sources */,
 				524C3BC028FD9BD700DB00D6 /* ViewController.swift in Sources */,
 				524C3BD528FDA0EB00DB00D6 /* MVVMLiveData.swift in Sources */,
+				524C3C0228FE008600DB00D6 /* OTPViewController.swift in Sources */,
 				524C3BF828FDCE7000DB00D6 /* RegisterViewController.swift in Sources */,
 				524C3BF428FDC5D800DB00D6 /* AuthenticationViewModel.swift in Sources */,
 				524C3BE828FDB69400DB00D6 /* ApiHandler.swift in Sources */,

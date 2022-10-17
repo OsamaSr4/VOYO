@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol popUpDelegate {
+    func gotoOTP()
+}
+
 class ForgotPasswordViewController: UIViewController {
     @IBOutlet weak var forgorPasswordPopup: UIView!
     
@@ -16,9 +20,10 @@ class ForgotPasswordViewController: UIViewController {
     @IBOutlet weak var nextButton: UIButton!
     
     private var viewModel = AuthenticationViewModel()
-    
+    var delegate : popUpDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
+        observerViewModel ()
     }
     
     @IBAction func closebuttonaction(_ sender: Any) {
@@ -40,17 +45,19 @@ class ForgotPasswordViewController: UIViewController {
         let params = [
             "email": email,
           ]
-        viewModel.requestForForgotPassword(params: params)
+        self.dismissPopUp()
+        self.delegate?.gotoOTP()
+       // viewModel.requestForForgotPassword(params: params)
     }
-  
-
+    
 }
 
 extension ForgotPasswordViewController {
     func observerViewModel () {
         viewModel.forgotPassResponse.observe { respones in
+            
             if respones?.error == false {
-                
+               
             }else {
                 DispatchQueue.main.async {
                     Toast.show(message: respones?.message ?? "UNKNOWN ERROR", controller: self)

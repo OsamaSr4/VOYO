@@ -46,6 +46,7 @@ class LoginViewController: UIViewController, UIPopoverPresentationControllerDele
         self.forgotPass.modalPresentationStyle = .overCurrentContext
         self.forgotPass.modalTransitionStyle = .crossDissolve
         self.forgotPass.preferredContentSize = CGSize(width: 300, height: 300)
+        self.forgotPass.delegate = self
         let pVC = self.forgotPass.popoverPresentationController
         pVC?.permittedArrowDirections = .any
         pVC?.delegate = self
@@ -57,7 +58,13 @@ class LoginViewController: UIViewController, UIPopoverPresentationControllerDele
 }
 
 
-extension LoginViewController {
+extension LoginViewController  : popUpDelegate {
+    func gotoOTP() {
+        let vc = OTPViewController.instantiate(fromStoryBoards: .Authentication)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
     func observerViewModel () {
         viewModel.UserModelResponesLiveData.observe { result in
             if result?.error == false {

@@ -8,6 +8,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="tahome_regular.ttf">
+            <string>Tahoma</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="s0d-6b-0kx">
@@ -70,14 +75,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctY-7q-Hdz">
                                         <rect key="frame" x="10" y="174" width="201" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Forgot Password?"/>
                                         <connections>
                                             <action selector="forgotPassword:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BH2-X9-Jg0"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9h-Uc-ngN">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9h-Uc-ngN">
                                         <rect key="frame" x="244.5" y="174" width="100.5" height="31"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Register"/>
                                         <connections>
@@ -95,6 +102,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Login">
                                             <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                         </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="loginButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Xd3-zs-UNU"/>
                                         </connections>
@@ -269,14 +281,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUq-3b-AfM">
                                         <rect key="frame" x="10" y="432" width="201" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Forgot Password?"/>
                                         <connections>
                                             <action selector="forgotPassword:" destination="S5n-Q4-XcG" eventType="touchUpInside" id="qds-e0-o8u"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7O2-Vx-kWm">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7O2-Vx-kWm">
                                         <rect key="frame" x="244.5" y="432" width="100.5" height="31"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                         <connections>
@@ -294,6 +308,11 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Register">
                                             <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                         </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="ResgisterButtonAction:" destination="S5n-Q4-XcG" eventType="touchUpInside" id="2KJ-xI-OmA"/>
                                         </connections>
@@ -474,8 +493,13 @@
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Next">
-                                                                    <color key="titleColor" red="0.94780462980000002" green="0.67467218640000004" blue="0.4666092396" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <integer key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                                 <connections>
                                                                     <action selector="nextButton:" destination="YHB-Be-P2w" eventType="touchUpInside" id="xl2-J3-8nR"/>
                                                                 </connections>
@@ -571,6 +595,153 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yl0-6b-Iub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1391" y="784"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="16D-ER-1mF">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ir8-tv-Xjh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="OTPViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HoV-Sm-eEJ" customClass="OTPViewController" customModule="VOYD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lae-KB-ATg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the 6-digit code sent to you" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="1Qc-1u-r3U">
+                                <rect key="frame" x="52" y="70" width="271" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="25" id="TCO-yg-FmN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qst-sy-1nf">
+                                <rect key="frame" x="52" y="111.5" width="271" height="45"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9na-JJ-fFV">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jdh-yQ-A9P">
+                                        <rect key="frame" x="46" y="0.0" width="41" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cGc-vu-wvh">
+                                        <rect key="frame" x="92" y="0.0" width="41" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ubj-GF-IkB">
+                                        <rect key="frame" x="138" y="0.0" width="41" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lYB-wE-Gxt">
+                                        <rect key="frame" x="184" y="0.0" width="41" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Cd-kI-gYL">
+                                        <rect key="frame" x="230" y="0.0" width="41" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ubj-GF-IkB" firstAttribute="height" secondItem="Qst-sy-1nf" secondAttribute="height" id="7tf-bU-n24"/>
+                                    <constraint firstAttribute="bottom" secondItem="lYB-wE-Gxt" secondAttribute="bottom" id="DAp-om-2sP"/>
+                                    <constraint firstAttribute="bottom" secondItem="ubj-GF-IkB" secondAttribute="bottom" id="FZr-YY-8aV"/>
+                                    <constraint firstAttribute="height" constant="45" id="LIh-cA-PWu"/>
+                                    <constraint firstItem="Jdh-yQ-A9P" firstAttribute="height" secondItem="cGc-vu-wvh" secondAttribute="height" id="P7H-80-NzD"/>
+                                    <constraint firstItem="ubj-GF-IkB" firstAttribute="top" secondItem="Qst-sy-1nf" secondAttribute="top" id="RGK-Ej-kjL"/>
+                                    <constraint firstAttribute="bottom" secondItem="9na-JJ-fFV" secondAttribute="bottom" id="RXO-R6-4VS"/>
+                                    <constraint firstAttribute="bottom" secondItem="9Cd-kI-gYL" secondAttribute="bottom" id="XDN-Pg-A6r"/>
+                                    <constraint firstItem="9na-JJ-fFV" firstAttribute="top" secondItem="Qst-sy-1nf" secondAttribute="top" id="aky-4v-BMk"/>
+                                    <constraint firstItem="9Cd-kI-gYL" firstAttribute="top" secondItem="Qst-sy-1nf" secondAttribute="top" id="gBc-eV-ihf"/>
+                                    <constraint firstItem="9Cd-kI-gYL" firstAttribute="height" secondItem="Qst-sy-1nf" secondAttribute="height" id="ic3-37-IMV"/>
+                                    <constraint firstItem="9na-JJ-fFV" firstAttribute="height" secondItem="Qst-sy-1nf" secondAttribute="height" id="jgy-Jo-AmP"/>
+                                    <constraint firstItem="lYB-wE-Gxt" firstAttribute="height" secondItem="Qst-sy-1nf" secondAttribute="height" id="l5a-qb-Mlj"/>
+                                    <constraint firstItem="lYB-wE-Gxt" firstAttribute="top" secondItem="Qst-sy-1nf" secondAttribute="top" id="wcq-pF-Fre"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5l-5m-nrH">
+                                <rect key="frame" x="52" y="213.5" width="271" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="ssP-1Z-wgv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="VERIFY">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="veriftButtonPressed:" destination="HoV-Sm-eEJ" eventType="touchUpInside" id="voV-j2-PeF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eko-rt-1rn">
+                                <rect key="frame" x="52" y="176.5" width="86" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="jb4-Ox-puW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tahoma" family="Tahoma" pointSize="14"/>
+                                <state key="normal" title="Resend Code">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resendCodeAction:" destination="HoV-Sm-eEJ" eventType="touchUpInside" id="41b-EV-XeX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CSp-jw-V2x"/>
+                        <color key="backgroundColor" red="0.94780462980000002" green="0.67467218640000004" blue="0.4666092396" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="I5l-5m-nrH" firstAttribute="leading" secondItem="Qst-sy-1nf" secondAttribute="leading" id="04m-h6-5ap"/>
+                            <constraint firstItem="I5l-5m-nrH" firstAttribute="top" secondItem="Eko-rt-1rn" secondAttribute="bottom" constant="20" id="1Bm-uC-OkN"/>
+                            <constraint firstItem="1Qc-1u-r3U" firstAttribute="centerX" secondItem="CSp-jw-V2x" secondAttribute="centerX" id="1rk-5I-Q2k"/>
+                            <constraint firstItem="Eko-rt-1rn" firstAttribute="leading" secondItem="Qst-sy-1nf" secondAttribute="leading" id="Dkw-O2-KLX"/>
+                            <constraint firstItem="1Qc-1u-r3U" firstAttribute="top" secondItem="CSp-jw-V2x" secondAttribute="top" constant="70" id="Eqp-wh-Jyw"/>
+                            <constraint firstItem="Qst-sy-1nf" firstAttribute="leading" secondItem="1Qc-1u-r3U" secondAttribute="leading" id="Fix-C4-6YF"/>
+                            <constraint firstItem="I5l-5m-nrH" firstAttribute="trailing" secondItem="Qst-sy-1nf" secondAttribute="trailing" id="SLN-bk-Lmh"/>
+                            <constraint firstItem="CSp-jw-V2x" firstAttribute="trailing" secondItem="1Qc-1u-r3U" secondAttribute="trailing" constant="52" id="XWi-Os-7fj"/>
+                            <constraint firstItem="Eko-rt-1rn" firstAttribute="top" secondItem="Qst-sy-1nf" secondAttribute="bottom" constant="20" id="ZMP-rV-WeK"/>
+                            <constraint firstItem="Qst-sy-1nf" firstAttribute="centerX" secondItem="1Qc-1u-r3U" secondAttribute="centerX" id="byG-Yq-OHL"/>
+                            <constraint firstItem="Qst-sy-1nf" firstAttribute="trailing" secondItem="1Qc-1u-r3U" secondAttribute="trailing" id="iY2-Kk-vqJ"/>
+                            <constraint firstItem="Qst-sy-1nf" firstAttribute="top" secondItem="1Qc-1u-r3U" secondAttribute="bottom" constant="20" id="qqg-Wf-ec3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KII-p9-D4D"/>
+                    <connections>
+                        <outlet property="resendCodeOutlet" destination="Eko-rt-1rn" id="3db-6B-ZVF"/>
+                        <outlet property="verifyButton" destination="I5l-5m-nrH" id="RWM-Ur-Gsg"/>
+                        <outletCollection property="codeTextArray" destination="9na-JJ-fFV" collectionClass="NSMutableArray" id="zvM-ka-abU"/>
+                        <outletCollection property="codeTextArray" destination="Jdh-yQ-A9P" collectionClass="NSMutableArray" id="VZl-iG-UOd"/>
+                        <outletCollection property="codeTextArray" destination="cGc-vu-wvh" collectionClass="NSMutableArray" id="SMP-5K-LAJ"/>
+                        <outletCollection property="codeTextArray" destination="ubj-GF-IkB" collectionClass="NSMutableArray" id="3PU-iU-JOQ"/>
+                        <outletCollection property="codeTextArray" destination="lYB-wE-Gxt" collectionClass="NSMutableArray" id="IhR-xd-70e"/>
+                        <outletCollection property="codeTextArray" destination="9Cd-kI-gYL" collectionClass="NSMutableArray" id="7Lf-oX-nMD"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="546" y="784"/>
         </scene>
     </scenes>
     <resources>
