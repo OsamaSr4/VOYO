@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42C85765BB19C89C0870BEC0 /* Pods_VOYD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C32D7A74CBDBC515BC1E278 /* Pods_VOYD.framework */; };
 		524C3BBC28FD9BD700DB00D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BBB28FD9BD700DB00D6 /* AppDelegate.swift */; };
-		524C3BBE28FD9BD700DB00D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BBD28FD9BD700DB00D6 /* SceneDelegate.swift */; };
 		524C3BC028FD9BD700DB00D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BBF28FD9BD700DB00D6 /* ViewController.swift */; };
 		524C3BC328FD9BD700DB00D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C3BC128FD9BD700DB00D6 /* Main.storyboard */; };
 		524C3BC528FD9BDB00DB00D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C3BC428FD9BDB00DB00D6 /* Assets.xcassets */; };
 		524C3BC828FD9BDB00DB00D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C3BC628FD9BDB00DB00D6 /* LaunchScreen.storyboard */; };
+		524C3BD328FDA08000DB00D6 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C3BD228FDA08000DB00D6 /* Authentication.storyboard */; };
+		524C3BD528FDA0EB00DB00D6 /* MVVMLiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BD428FDA0EB00DB00D6 /* MVVMLiveData.swift */; };
+		524C3BD728FDA3B700DB00D6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BD628FDA3B700DB00D6 /* Toast.swift */; };
+		524C3BDD28FDAAD100DB00D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BDC28FDAAD100DB00D6 /* LoginViewController.swift */; };
+		524C3BDF28FDAB9E00DB00D6 /* ApiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BDE28FDAB9E00DB00D6 /* ApiConstant.swift */; };
+		524C3BE228FDAE3900DB00D6 /* Repo_Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BE128FDAE3900DB00D6 /* Repo_Authentication.swift */; };
+		524C3BE428FDB2BC00DB00D6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BE328FDB2BC00DB00D6 /* Extension.swift */; };
+		524C3BE628FDB51E00DB00D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BE528FDB51E00DB00D6 /* Constants.swift */; };
+		524C3BE828FDB69400DB00D6 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BE728FDB69400DB00D6 /* ApiHandler.swift */; };
+		524C3BF128FDC25300DB00D6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BF028FDC25300DB00D6 /* UserModel.swift */; };
+		524C3BF428FDC5D800DB00D6 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BF328FDC5D800DB00D6 /* AuthenticationViewModel.swift */; };
+		524C3BF628FDC7EC00DB00D6 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BF528FDC7EC00DB00D6 /* UserDefault.swift */; };
+		524C3BF828FDCE7000DB00D6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BF728FDCE7000DB00D6 /* RegisterViewController.swift */; };
+		524C3BFA28FDD10400DB00D6 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BF928FDD10400DB00D6 /* NavigationController.swift */; };
+		524C3BFE28FDE4A800DB00D6 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BFD28FDE4A800DB00D6 /* ForgotPasswordViewController.swift */; };
+		524C3C0028FDE51900DB00D6 /* ForgotPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C3BFF28FDE51900DB00D6 /* ForgotPasswordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C32D7A74CBDBC515BC1E278 /* Pods_VOYD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOYD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C3BB828FD9BD700DB00D6 /* VOYD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOYD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C3BBB28FD9BD700DB00D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		524C3BBD28FD9BD700DB00D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		524C3BBF28FD9BD700DB00D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		524C3BC228FD9BD700DB00D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524C3BC428FD9BDB00DB00D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524C3BC728FD9BDB00DB00D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524C3BC928FD9BDB00DB00D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524C3BD228FDA08000DB00D6 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		524C3BD428FDA0EB00DB00D6 /* MVVMLiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMLiveData.swift; sourceTree = "<group>"; };
+		524C3BD628FDA3B700DB00D6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		524C3BDC28FDAAD100DB00D6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		524C3BDE28FDAB9E00DB00D6 /* ApiConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstant.swift; sourceTree = "<group>"; };
+		524C3BE128FDAE3900DB00D6 /* Repo_Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo_Authentication.swift; sourceTree = "<group>"; };
+		524C3BE328FDB2BC00DB00D6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		524C3BE528FDB51E00DB00D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		524C3BE728FDB69400DB00D6 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		524C3BF028FDC25300DB00D6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		524C3BF328FDC5D800DB00D6 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		524C3BF528FDC7EC00DB00D6 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		524C3BF728FDCE7000DB00D6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		524C3BF928FDD10400DB00D6 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		524C3BFD28FDE4A800DB00D6 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		524C3BFF28FDE51900DB00D6 /* ForgotPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordModel.swift; sourceTree = "<group>"; };
+		99BD38D4806EB9592718AD42 /* Pods-VOYD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOYD.release.xcconfig"; path = "Target Support Files/Pods-VOYD/Pods-VOYD.release.xcconfig"; sourceTree = "<group>"; };
+		C6216EDF60E098FD6F15CECB /* Pods-VOYD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOYD.debug.xcconfig"; path = "Target Support Files/Pods-VOYD/Pods-VOYD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C85765BB19C89C0870BEC0 /* Pods_VOYD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0524FE28DCE5B3094D2F3372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C32D7A74CBDBC515BC1E278 /* Pods_VOYD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		524C3BAF28FD9BD700DB00D6 = {
 			isa = PBXGroup;
 			children = (
 				524C3BBA28FD9BD700DB00D6 /* VOYD */,
 				524C3BB928FD9BD700DB00D6 /* Products */,
+				7B5661E329C01DE10EB2CE75 /* Pods */,
+				0524FE28DCE5B3094D2F3372 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,95 @@
 		524C3BBA28FD9BD700DB00D6 /* VOYD */ = {
 			isa = PBXGroup;
 			children = (
+				524C3BEF28FDC0C900DB00D6 /* Model */,
+				524C3BDB28FDAABB00DB00D6 /* ViewControllers */,
+				524C3BE028FDAE1B00DB00D6 /* Repositories */,
+				524C3BD128FDA05500DB00D6 /* API Manager */,
+				524C3BD028FDA04800DB00D6 /* Helper */,
+				524C3BCF28FD9FE900DB00D6 /* Storyboards */,
 				524C3BBB28FD9BD700DB00D6 /* AppDelegate.swift */,
-				524C3BBD28FD9BD700DB00D6 /* SceneDelegate.swift */,
-				524C3BBF28FD9BD700DB00D6 /* ViewController.swift */,
-				524C3BC128FD9BD700DB00D6 /* Main.storyboard */,
 				524C3BC428FD9BDB00DB00D6 /* Assets.xcassets */,
 				524C3BC628FD9BDB00DB00D6 /* LaunchScreen.storyboard */,
 				524C3BC928FD9BDB00DB00D6 /* Info.plist */,
 			);
 			path = VOYD;
+			sourceTree = "<group>";
+		};
+		524C3BCF28FD9FE900DB00D6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BC128FD9BD700DB00D6 /* Main.storyboard */,
+				524C3BD228FDA08000DB00D6 /* Authentication.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		524C3BD028FDA04800DB00D6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BE528FDB51E00DB00D6 /* Constants.swift */,
+				524C3BD428FDA0EB00DB00D6 /* MVVMLiveData.swift */,
+				524C3BD628FDA3B700DB00D6 /* Toast.swift */,
+				524C3BE328FDB2BC00DB00D6 /* Extension.swift */,
+				524C3BF528FDC7EC00DB00D6 /* UserDefault.swift */,
+				524C3BF928FDD10400DB00D6 /* NavigationController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		524C3BD128FDA05500DB00D6 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BE728FDB69400DB00D6 /* ApiHandler.swift */,
+				524C3BDE28FDAB9E00DB00D6 /* ApiConstant.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		524C3BDB28FDAABB00DB00D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BF228FDC5C900DB00D6 /* ViewModel */,
+				524C3BBF28FD9BD700DB00D6 /* ViewController.swift */,
+				524C3BDC28FDAAD100DB00D6 /* LoginViewController.swift */,
+				524C3BF728FDCE7000DB00D6 /* RegisterViewController.swift */,
+				524C3BFD28FDE4A800DB00D6 /* ForgotPasswordViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		524C3BE028FDAE1B00DB00D6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BE128FDAE3900DB00D6 /* Repo_Authentication.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		524C3BEF28FDC0C900DB00D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BF028FDC25300DB00D6 /* UserModel.swift */,
+				524C3BFF28FDE51900DB00D6 /* ForgotPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		524C3BF228FDC5C900DB00D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				524C3BF328FDC5D800DB00D6 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B5661E329C01DE10EB2CE75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6216EDF60E098FD6F15CECB /* Pods-VOYD.debug.xcconfig */,
+				99BD38D4806EB9592718AD42 /* Pods-VOYD.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524C3BCC28FD9BDB00DB00D6 /* Build configuration list for PBXNativeTarget "VOYD" */;
 			buildPhases = (
+				DB438F117DE1A8FA2CD8EE33 /* [CP] Check Pods Manifest.lock */,
 				524C3BB428FD9BD700DB00D6 /* Sources */,
 				524C3BB528FD9BD700DB00D6 /* Frameworks */,
 				524C3BB628FD9BD700DB00D6 /* Resources */,
+				631C71C3F9807F8C670C9795 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524C3BD328FDA08000DB00D6 /* Authentication.storyboard in Resources */,
 				524C3BC828FD9BDB00DB00D6 /* LaunchScreen.storyboard in Resources */,
 				524C3BC528FD9BDB00DB00D6 /* Assets.xcassets in Resources */,
 				524C3BC328FD9BD700DB00D6 /* Main.storyboard in Resources */,
@@ -133,14 +261,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		631C71C3F9807F8C670C9795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VOYD/Pods-VOYD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VOYD/Pods-VOYD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VOYD/Pods-VOYD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB438F117DE1A8FA2CD8EE33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VOYD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		524C3BB428FD9BD700DB00D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524C3BFE28FDE4A800DB00D6 /* ForgotPasswordViewController.swift in Sources */,
+				524C3BE228FDAE3900DB00D6 /* Repo_Authentication.swift in Sources */,
+				524C3BDD28FDAAD100DB00D6 /* LoginViewController.swift in Sources */,
+				524C3BF628FDC7EC00DB00D6 /* UserDefault.swift in Sources */,
+				524C3BE628FDB51E00DB00D6 /* Constants.swift in Sources */,
+				524C3BF128FDC25300DB00D6 /* UserModel.swift in Sources */,
+				524C3C0028FDE51900DB00D6 /* ForgotPasswordModel.swift in Sources */,
+				524C3BDF28FDAB9E00DB00D6 /* ApiConstant.swift in Sources */,
+				524C3BD728FDA3B700DB00D6 /* Toast.swift in Sources */,
+				524C3BFA28FDD10400DB00D6 /* NavigationController.swift in Sources */,
 				524C3BC028FD9BD700DB00D6 /* ViewController.swift in Sources */,
+				524C3BD528FDA0EB00DB00D6 /* MVVMLiveData.swift in Sources */,
+				524C3BF828FDCE7000DB00D6 /* RegisterViewController.swift in Sources */,
+				524C3BF428FDC5D800DB00D6 /* AuthenticationViewModel.swift in Sources */,
+				524C3BE828FDB69400DB00D6 /* ApiHandler.swift in Sources */,
 				524C3BBC28FD9BD700DB00D6 /* AppDelegate.swift in Sources */,
-				524C3BBE28FD9BD700DB00D6 /* SceneDelegate.swift in Sources */,
+				524C3BE428FDB2BC00DB00D6 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +466,7 @@
 		};
 		524C3BCD28FD9BDB00DB00D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6216EDF60E098FD6F15CECB /* Pods-VOYD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,9 +476,10 @@
 				INFOPLIST_FILE = VOYD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Authentication;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +495,7 @@
 		};
 		524C3BCE28FD9BDB00DB00D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BD38D4806EB9592718AD42 /* Pods-VOYD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +505,10 @@
 				INFOPLIST_FILE = VOYD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Authentication;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
