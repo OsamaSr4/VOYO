@@ -59,10 +59,6 @@ class RegisterViewController: UIViewController, UIPopoverPresentationControllerD
             "role": "member"
           ]
         viewModel.requestForRegistration(params: params)
-        
-        
-       
-        
     }
     
 }

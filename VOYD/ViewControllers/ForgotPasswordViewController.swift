@@ -52,7 +52,9 @@ extension ForgotPasswordViewController {
             if respones?.error == false {
                 
             }else {
-                
+                DispatchQueue.main.async {
+                    Toast.show(message: respones?.message ?? "UNKNOWN ERROR", controller: self)
+                }
             }
         }
         
