@@ -39,14 +39,15 @@ class ForgotPasswordViewController: UIViewController {
     
   
     @IBAction func nextButton(_ sender: UIButton) {
+        self.dismissPopUp()
+        self.delegate?.gotoOTP()
         guard let email = emailTextFiled.text , !email.isEmpty , email.isValidEmail() else {
             return Toast.show(message: "Incorrect Email ", controller: self)
         }
         let params = [
             "email": email,
           ]
-        self.dismissPopUp()
-        self.delegate?.gotoOTP()
+       
        // viewModel.requestForForgotPassword(params: params)
     }
     
